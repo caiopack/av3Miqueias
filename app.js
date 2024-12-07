@@ -13,6 +13,6 @@ const PORT = process.env.PORT || 3000;
 
 // Mensagem ao iniciar o servidor
 app.listen(PORT, () => {
-    console.log(`Servidor rodando ${PORT}`);
+    console.log(`Iniciei o servidor! ${PORT}`);
     console.log(`Acesse em http://localhost:${PORT}`);
 });
